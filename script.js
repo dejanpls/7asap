@@ -84,9 +84,9 @@ function endGame() {
 
 function updateGameEndInfo() {
 	intro.textContent = "Game done!";
+	
 	const scoreInfo = document.createElement("h3");
 	scoreInfo.className = "scoreInfo";
-	// startScreen.appendChild(scoreInfo);
 	startScreen.insertBefore(scoreInfo, startBtn);
 	scoreInfo.textContent = `You solved ${scoreCount} problem`;
 	if (scoreCount > 1) scoreInfo.textContent += `s`;
