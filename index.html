@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>7ASAP | Arithmetic Made Fun</title>
+	<script src="script.js" defer></script> 
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="winner-screen">
+			<!-- show me if you get the right result -->
+			<h2 class="text winner">Correct!</h2>
+			<h2 class="text score"></h2>
+		</div>
+
+		
+		<div class="header">
+			<h1 class="text game-title">7ASAP</h1>
+		</div>
+
+		<div class="start-screen">
+			<h3 class="text intro">
+				For each arithmetic problem,<br/>
+				you get 7 seconds to solve it.
+
+			</h3>
+
+			<button id="start" class="btn">Start Game</button>
+		</div>
+
+		<div class="main">
+			<h1 class="counter">7</h1>
+
+			<p class="operation">
+				<span class="operandA"></span> + 
+				<span class="operandB"></span> = ?
+			</p>
+			<input type="number" id="result" name="result">
+
+		</div>
+
+
+
+
+		<div class="footer">
+			<p class="text footer-text">Made with ❤️ by @dejanpls</p>
+		</div>
+
+	</div>
+
+</body>
+</html>
